@@ -20,7 +20,7 @@ html, body {
     border-radius: 10px;
     padding: 10px;
     opacity: 0.6;
-    overflow: scroll;
+    overflow: auto;
 }
 #ctext {
     animation-name: textshow;
@@ -42,7 +42,7 @@ html, body {
     border-radius: 10px;
     padding: 10px;
     height: 70%;
-    overflow: auto;
+    overflow: scroll;
 }
 
 #aboutme {
