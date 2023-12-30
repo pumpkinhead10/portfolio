@@ -51,10 +51,6 @@ html, body {
     grid-area: footer;
 }
 
-a {
-    z-index: 2;
-}
-
 .custom-shape-divider-bottom-1703956060 {
     position: absolute;
     bottom: 0;
@@ -63,7 +59,6 @@ a {
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
-    z-index: 1;
 }
 
 .custom-shape-divider-bottom-1703956060 svg {
