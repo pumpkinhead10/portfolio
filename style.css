@@ -42,7 +42,6 @@ html, body {
     border-radius: 10px;
     padding: 10px;
     overflow: auto;
-    z-index: 1;
 }
 
 #aboutme {
@@ -58,7 +57,6 @@ html, body {
     z-index: 1;
     position: relative;
 }
-
 .custom-shape-divider-bottom-1703956060 {
     position: absolute;
     bottom: 0;
@@ -79,4 +77,22 @@ html, body {
 
 .custom-shape-divider-bottom-1703956060 .shape-fill {
     fill: #DC84F3;
+}
+
+@media screen and (orientation:portrait) {
+    .custom-shape-divider-bottom-1703956060 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);  
+    }
+}
+
+@media screen and (orientation:landscape) {
+    .custom-shape-divider-bottom-1703956060 {
+        display: none;
+    }
 }
