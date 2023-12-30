@@ -51,7 +51,7 @@ html, body {
     grid-area: footer;
 }
 
-#footer a {
+a {
     z-index: 2;
 }
 
