@@ -41,18 +41,26 @@ html, body {
     background-color: #E9A8F2;
     border-radius: 10px;
     padding: 10px;
+    height: 70%;
+    overflow: auto;
 }
 
 #aboutme {
     grid-area: aboutme;
+    z-index: 1;
 }
 
 #footer  {
     grid-area: footer;
 }
 
+#footer a {
+    z-index: 1;
+    position: relative;
+}
+
 .custom-shape-divider-bottom-1703956060 {
-    margin-top: 10px;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
