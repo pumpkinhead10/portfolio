@@ -42,7 +42,7 @@ html, body {
     border-radius: 10px;
     padding: 10px;
     height: 70%;
-    overflow: scroll;
+    overflow: auto;
 }
 
 #aboutme {
